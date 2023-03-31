@@ -1,3 +1,6 @@
+git repository - branch- db 
+                 origin - db
+
 schema 
 
 

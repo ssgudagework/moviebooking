@@ -6,10 +6,10 @@ const getAllCities = async (req, res) => {
         res.status(201).json({ cities })
         console.log("Successfully got all Cities")
     } catch (error) {
-        console.log('error');
-        res.send(400).json({
-            message: "Unable to get Cities"
-        })
+        console.log('cant get cities');
+        // res.send(400).json({
+        //     message: "Unable to get Cities"
+        // })
     }
 }
 
